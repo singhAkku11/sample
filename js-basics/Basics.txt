@@ -1,0 +1,25 @@
+Factory Fns in JS -> Its like a function/factory which produces objects
+
+Constructor Fns -> Its job is to create or construct an object
+
+Primitive Types(Number, String, Boolean, Symbol, null undefined) are copied by their value
+
+Objects(Function, Array and Object) are copied by their reference
+
+Hoisting is the process of moving function declarations to the top of the file. And this is done automatically by the JS engine that is executing the ccode.
+
+getters => access properties of an object
+setters => change (mutate) them
+
+var => creates function-scoped variables
+ ES6 (ES2015): let, const => block-scoped variables
+ 
+ this => references to the object that is executing the current function
+			when inside a method(i.e. inside an object) => it refers to the object
+			and when in a function => it refers to global object i.e. (window,global)
+
+With call(), apply() and bind(), we can set the this argument for a given function
+
+//Rest operator is used to get variable no. of arguments, it converts the variable no. of arguments into an array
+//Rest parameter must be last final parameter
+

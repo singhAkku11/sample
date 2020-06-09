@@ -1,11 +1,11 @@
-// const numbers = [3,4];
-// //Add elements to end of array
+//  const numbers = [3,4];
+// Add elements to end of array
 // numbers.push(5,6);
-// //Add element to beginning of array
+// Add element to beginning of array
 // numbers.unshift(1,2);
-// //Add element to the middle of an array
-// numbers .splice(2,0,'a','b');
-//console.log(numbers);
+// Add element to the middle of an array
+// const del = numbers.splice(0,0,'a','b');
+// console.log(numbers, del);
 
 // const array = [11,12,13,14,15];
 // //Remove elements from end of array
@@ -21,16 +21,18 @@
 // // console.log(array);
 
 //Concatenation of two arrays
-// const first = [1,2,3];
-// const second = [4,5,6];
-// const combined = first.concat(second);
-// console.log(combined);
-// const slice = combined.slice(2,5);
-// console.log(slice);
-// const copy = combined.slice();
-// const third = [...first, ...second];
-// const combinedSpread = [ ...first, 'a', ...second, 'b'];
-// console.log(combinedSpread);
+//  const first = [1,2,3];
+//  const second = [4,5,6];
+//  const combined = first.concat(second);
+//  console.log(combined);
+//  const slice = combined.slice(2,5);
+//  console.log(slice);
+//  const copy = combined.slice();
+//  console.log(copy);
+//  const third = [...first, ...second];
+//  console.log(third);
+//  const combinedSpread = [ ...first, 'a', ...second, 'b'];
+//  console.log(combinedSpread);
 
 //Iterating an array
 // const numbers = [1, 2, 3];
@@ -96,8 +98,8 @@
 // console.log(sum);
 
 
-// const numbers = arrayFromRange(1,4);
-// console.log(numbers);
+// const numbersA = arrayFromRange(1,4);
+// console.log(numbersA);
 
 // function arrayFromRange(min,max){
 //     let array = [];
@@ -183,17 +185,17 @@
 
 // }
 
-const movies = [
-    { title: 'a', year: 2018, rating: 4.5 },
-    { title: 'b', year: 2018, rating: 4.7 },
-    { title: 'c', year: 2018, rating: 3 },
-    { title: 'd', year: 2017, rating: 4.5 },
-];
+// const movies = [
+//     { title: 'a', year: 2018, rating: 4.5 },
+//     { title: 'b', year: 2018, rating: 4.7 },
+//     { title: 'c', year: 2018, rating: 3 },
+//     { title: 'd', year: 2017, rating: 4.5 },
+// ];
 
-const output = test(movies);
-console.log(output);
+// const output = test(movies);
+// console.log(output);
 
-function test(movies){
+// function test(movies){
     // const opArray = [];
     // for(let index in movies)
     //     if((movies[index].year) === 2018 && movies[index].rating > 4)
@@ -212,13 +214,13 @@ function test(movies){
     // return ar;
 
 
-    const titles = movies
-    .filter(m => m.year === 2018 && m.rating >= 4)
-    .sort((a,b) => a.rating = b.rating)
-    .reverse()
-    .map(m => m.title);
+//     const titles = movies
+//     .filter(m => m.year === 2018 && m.rating >= 4)
+//     .sort((a,b) => a.rating = b.rating)
+//     .reverse()
+//     .map(m => m.title);
 
-    return titles;
-}
+//     return titles;
+// }
 
     
